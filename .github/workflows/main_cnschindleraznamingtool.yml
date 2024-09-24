@@ -3,6 +3,10 @@
 
 name: Build and deploy ASP.Net Core app to Azure Web App - CNSchindlerAZNamingTool
 
+defaults:
+  run:
+    working-directory: src
+
 on:
   push:
     branches:
